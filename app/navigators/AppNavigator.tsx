@@ -63,6 +63,7 @@ const AppStack = observer(function AppStack() {
   const {
     authenticationStore: { isAuthenticated },
   } = useStores()
+  console.tron.log("isAuthenticated", isAuthenticated)
 
   // @demo remove-block-end
   return (
